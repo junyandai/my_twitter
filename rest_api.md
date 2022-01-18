@@ -50,7 +50,7 @@ Find all users with the name
   
   		{
   			"user_id" : 1111111",
-  							"user_name" : Bob"
+  			"user_name" : Bob"
   			} 
   	]
   
@@ -92,7 +92,7 @@ If the user input the correct "user_old_password" and input same "user_new_passw
 
 ### Tweets Look up
 
-Retrieve tweets made by a user
+Retrieve a tweet by id
 
 - Request :
   
