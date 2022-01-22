@@ -24,7 +24,7 @@
   
   ```json
   {
-  	"user_id" = 123456
+  	"user_id" : 123456
   }
   ```
 
@@ -109,7 +109,7 @@ Retrieve a tweet by id
   		"status" : 200,
   		"title" : "Who Am I",
   		"id" : "2412314214135353",
-  		"text": Hello, I am Bob."
+  		"text": "Hello, I am Bob."
   
     		}
   
@@ -167,7 +167,7 @@ Find all follows of a user
     ```json
     {
     	"data" : [
-    		{"name" : "Bob", "id" : "123456 }
+    		{"name" : "Bob", "id" : 123456 }
     
     
     	]
@@ -188,7 +188,7 @@ Find all follows of a user
     
     ```json
     {
-    	"id" = 123456
+    	"id" : 123456
     
     }
     ```
@@ -260,7 +260,7 @@ Find all follows of a user
   
   ```json
   {
-  	"id" = 066669
+  	"id" : 066669
   }
   ```
 
