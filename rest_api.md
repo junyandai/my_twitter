@@ -260,7 +260,7 @@ Find all follows of a user
   
   ```json
   {
-  	"id" : 066669
+  	"id" : 66669
   }
   ```
 
