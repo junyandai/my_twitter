@@ -106,7 +106,6 @@ Retrieve a tweet by id
   {
   	"data": {
   		"author_id" : "123456",
-  		"created_at" : "2020-06-24T16:28:14.000Z",
   		"status" : 200,
   		"title" : "Who Am I",
   		"id" : "2412314214135353",
