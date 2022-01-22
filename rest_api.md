@@ -12,7 +12,7 @@
   - Headers : Content- Type:application/json
   - Body:
 
-```
+```json
 {
 	"name" : "Bob",
 	"password" : "Bob1234"
@@ -22,7 +22,7 @@
 
 - Sample Response :
   
-  ```
+  ```json
   {
   	"user_id" = 123456
   }
@@ -41,7 +41,7 @@ Find all users with the name
 
 - Sample Response
   
-  ```
+  ```json
   {
   	"data": [
   		{	"user_id" : "123456",
@@ -69,7 +69,7 @@ If the user input the correct "user_old_password" and input same "user_new_passw
     - id : integer
   - Body:
 
-```
+```json
 {
 	"user_name" : "Bob"
 	"user_old_password" : "Bob123",
@@ -81,7 +81,7 @@ If the user input the correct "user_old_password" and input same "user_new_passw
 
 - Sample Response
   
-  ```
+  ```json
   {
   	"status" : 200
   	"message" : "You have already reset your password successfully"
@@ -102,7 +102,7 @@ Retrieve a tweet by id
     - id : integer
 - Sample Response :
   
-  ```
+  ```json
   {
   	"data": {
   		"author_id" : "123456",
@@ -122,7 +122,7 @@ Retrieve a tweet by id
   - Endpoint : /tweets
   - Headers : Content- Type:application/json
   - Body :
-    ```
+    ```json
     {
     	"title" : "Who Am I",
     	"text" : "I am Bob"
@@ -131,7 +131,7 @@ Retrieve a tweet by id
     ```
 - Sample Response :
   
-  ```
+  ```json
   {
   	"id" : 1324242
   
@@ -145,7 +145,7 @@ Retrieve a tweet by id
   - Headers : Content- Type:application/json
 - Sample Response :
   
-  ```
+  ```json
   {
   	"status" : 200
   
@@ -164,7 +164,7 @@ Find all follows of a user
   - Path Variable :
     - id  : integer
   - Sample Response :
-    ```
+    ```json
     {
     	"data" : [
     		{"name" : "Bob", "id" : "123456 }
@@ -186,7 +186,7 @@ Find all follows of a user
     - id : integer
   - Body
     
-    ```
+    ```json
     {
     	"id" = 123456
     
@@ -194,7 +194,7 @@ Find all follows of a user
     ```
   - Sample Response :
     
-    ```
+    ```json
     {
     	"status" : 200
     
@@ -210,14 +210,14 @@ Find all follows of a user
   - target_id : integer
 - Body :
   
-  ```
+  ```json
   {
   	"user_id" : "123456"  
   }
   ```
 - Sample Response
   
-  ```
+  ```json
   {
   	"status" : 200
   
@@ -234,7 +234,7 @@ Find all follows of a user
   - id : integer
 - Sample Respnse
   
-  ```
+  ```json
   {
   	"author" : "Bob", 
   	"text" : "LoL."
@@ -251,14 +251,14 @@ Find all follows of a user
   - id : integer
 - Body
   
-  ```
+  ```json
   {
   	"text" : "Hello, world"
   }
   ```
 - Sample Response :
   
-  ```
+  ```json
   {
   	"id" = 066669
   }
@@ -271,7 +271,7 @@ Find all follows of a user
 - Path Variable :
   - id : integer
 - Sample Response :
-  ```
+  ```json
   {
   	"status" : 200
   
