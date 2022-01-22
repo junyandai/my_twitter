@@ -49,7 +49,7 @@ Find all users with the name
   			}, 
   
   		{
-  			"user_id" : 1111111",
+  			"user_id" : 1111111,
   			"user_name" : Bob"
   			} 
   	]
