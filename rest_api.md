@@ -71,7 +71,7 @@ If the user input the correct "user_old_password" and input same "user_new_passw
 
 ```json
 {
-	"user_name" : "Bob"
+	"user_name" : "Bob",
 	"user_old_password" : "Bob123",
 	"user_new_password" : "Bob456",
 	"user_new_password_again" : "Bob456"
@@ -204,7 +204,7 @@ Find all follows of a user
   ### Unfollow a User
 - Endpoint : **DELETE** /user/:source-id/following/:target-id
 - Headers : Content- Type:application/json
-- Variable Parameter :
+- Path Variable :
   
   - source_id : integer
   - target_id : integer
@@ -235,7 +235,8 @@ Find all follows of a user
 - Sample Respnse
   
   ```json
-  {
+  { 
+    "author_id" : 76543,
   	"author" : "Bob", 
   	"text" : "LoL."
   
